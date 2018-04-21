@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>home</title>
+<meta charset="utf-8">    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description" content="Your description">
+<meta name="keywords" content="Your keywords">
+<meta name="author" content="Your name">
+<meta name = "format-detection" content = "telephone=no" />
+<!--CSS-->
+<link rel="stylesheet" href="css/bootstrap.css" >
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/camera.css">
+<link rel="stylesheet" href="fonts/font-awesome.css">
+<!--JS-->
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/superfish.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.mobilemenu.js"></script>
+<script src="js/jquery.ui.totop.js"></script>
+<script src="js/jquery.equalheights.js"></script>
+<script src="js/camera.js"></script>
+<script>
+    $(document).ready(function(){
+        jQuery('.camera_wrap').camera();
+    });
+</script>
+
+<!--[if (gt IE 9)|!(IE)]><!-->
+      <script src="js/jquery.mobile.customized.min.js"></script>
+<!--<![endif]-->
+
+</head>
+<body>
+<!--header-->
+<header class="clearfix">
+    <div class="menuBox clearfix">
+        <div class="container">
+            <div class="row">
+                <article class="col-lg-12 col-md-12 col-sm-12">
+                    <h1 class="navbar-brand navbar-brand_"><a href="index.html">metamorph_negata</a></h1>
+                    <nav class="navbar navbar-default navbar-static-top mynavbar clearfix" role="navigation">
+                        <ul class="nav sf-menu clearfix">
+                            <li class="active"><a href="index.html">home</a></li>
+                            <li class="sub-menu"><a href="about.html">about<span></span></a> 
+							 <ul class="submenu">
+                                    <li><a href="#">Vestibulum</a></li>
+                                    <li><a href="#">Lacinia est</a></li>
+                                    <li><a href="#">Proin dictum</a><span></span>
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Vestibulum</a></li>
+                                            <li><a href="#">Lacinia est</a></li>
+                                            <li><a href="#">Proin dictum</a></li>
+                                            <li><a href="#">Elementum vel</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Elementum velit</a></li>
+                                </ul></li>
+                            <li><a href="services.html">services</a></li>
+                            <li><a href="products.html">products</a></li>
+                            <li><a href="contact.html">contact us</a></li>
+                        </ul>
+                    </nav>
+                </article>
+            </div>
+        </div>
+    </div>
+</header>
+<article class="slider">
+    <div class="camera_wrap">
+        <div data-src="img/picture1.jpg"><div class="camera-caption fadeIn"><p class="title1">Lorem ipsum,</p><p class="title2">Cras et purus pretium, luctus felis quis</p><br><p class="title3">Maecenas nec pretium lacus ipsum dapibus sem placerat</p></div></div>
+        <div data-src="img/picture2.jpg"><div class="camera-caption fadeIn"><p class="title1">Cras et purus,</p><p class="title2">Nam ultricies nisl mauris, sed mollis</p><br><p class="title3">Donec sagittis euismod purusorem ipsum dolor sit</p></div></div>
+        <div data-src="img/picture3.jpg"><div class="camera-caption fadeIn"><p class="title1">Etiam eleifend,</p><p class="title2">Vestibulum lobortis tortor vel libero</p><br><p class="title3">Phasellus ac ipsum dapibus vehicula nisi noncursus egewe</p></div></div>
+    </div>
+</article>
+<div class="global">
+    <div class="container">
+        <div class="row">
+            <article class="col-lg-12 welcomeBox">
+                <p class="title1"><span>Welcome</span> to our website!</p>
+                <hr>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et purus pretium, luctus felis quis, vestibulum diam. Quisque eget diam non ligula feugiat ornare. Morbi vitae pharetra ante. Duis eget dolor et ligula ultrices blandit. Suspendisse tincidunt, dui varius blandit viverra, urna mauris luctus est, et vulputate turpis dui in sem. Nam ultricies nisl mauris, sed mollis mi lobortis ut. Etiam eleifend urna erat. Vivamus tempor lacus nec luctus iaculis. Vestibulum lobortis tortor vel libero convallis, et facilisis turpis pretium.</p>
+            </article>
+        </div>
+    </div>
+    <section class="bannerBox clearfix">
+        <div class="container">
+            <div class="row">
+                <article class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <p class="title">Praesent entum</p>
+                    <p class="description">Morbi rutrum, elit ac fermentum egestas, tortor ante vestibulum est, eget scelerisque</p>
+                    <figure><img src="img/home_pic1.jpg" alt=""></figure>
+                    <a href="#" class="btn-default btn1"><span>read more</span><em class="fa fa-chevron-right"></em></a>
+                </article>
+                <article class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <p class="title">Curabtur peesqu</p>
+                    <p class="description">Morbi rutrum, elit ac fermentum egestas, tortor ante vestibulum est, eget scelerisque</p>
+                    <figure><img src="img/home_pic2.jpg" alt=""></figure>
+                    <a href="#" class="btn-default btn1"><span>read more</span><em class="fa fa-chevron-right"></em></a>
+                </article>
+                <article class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <p class="title">Aliquam erat</p>
+                    <p class="description">Morbi rutrum, elit ac fermentum egestas, tortor ante vestibulum est, eget scelerisque</p>
+                    <figure><img src="img/home_pic3.jpg" alt=""></figure>
+                    <a href="#" class="btn-default btn1"><span>read more</span><em class="fa fa-chevron-right"></em></a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="servicesBox clearfix">
+        <div class="container">
+            <div class="row">                
+                <article class="col-lg-8 col-md-8 col-sm-8 memberBox"> 
+                    <h2>Services we offer</h2>
+                    <div class="row">   
+                        <article class="col-lg-6 col-md-6 col-sm-6"> 
+                            <p>Praesent elementum libero ante, vel tinc idunt quam egestas vitae. Morbi odio augu e, faucibus vitae augue vitae, mattis estibu lum esonec blandit odio ut.</p>
+							<p>Morbi odio augu e, faucibus vitae augue vitae, mattis estibu lum esonec blandit odio ut.</p>
+                            <a href="#" class="btn-default btn1"><span>read more</span><em class="fa fa-chevron-right"></em></a>
+                        </article>
+                        <article class="col-lg-6 col-md-6 col-sm-6"> 
+                            <p>Praesent elementum libero ante, vel tinc idunt quam egestas vitae. Morbi odio augu e, faucibus vitae augue vitae, mattis estibu lum esonec blandit odio ut.</p>
+							<p>Morbi odio augu e, faucibus vitae augue vitae, mattis estibu lum esonec blandit odio ut.</p>
+                            <a href="#" class="btn-default btn1"><span>read more</span><em class="fa fa-chevron-right"></em></a>
+                        </article>
+                    </div>
+                </article>
+                <article class="col-lg-3 col-md-12 col-sm-12 manBox">
+                    <figure><img src="img/home_pic4.jpg" alt=""></figure>
+                </article>
+            </div>
+        </div>
+    </section>
+</div>
+<!--footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <article class="col-lg-12 col-md-12 col-sm-12 box1">
+                <ul class="foo_menu">
+                    <li class="active"><a class="index.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="services.html">services</a></li>
+                    <li><a href="products.html">products</a></li>
+                    <li><a href="contact.html">contact us</a></li>
+                </ul>
+                <p>metamorph_negata &copy; <em id="copyright-year"></em> &bull;</p>
+<p class="copy_rt">Developed by <a href="http://www.metamorphozis.com" class="copy_rt_lk">metamorphozis</a></p>
+                
+            </article>
+        </div>
+    </div>
+</footer>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
+
+</body>
+</html>
